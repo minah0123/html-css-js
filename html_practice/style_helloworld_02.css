@@ -1,0 +1,25 @@
+body> p{
+    font-size: 50px;
+    color: green !important;
+}
+
+
+#p_id{
+    font-size: 50px;
+    color: black;
+}
+
+.p_class{
+    font-size: 50px;
+    color:blue;
+}
+
+p{
+    font-size: 50px;
+    color: red !important;
+
+}
+body{
+    font-size: 50px;
+    color: gray;
+}

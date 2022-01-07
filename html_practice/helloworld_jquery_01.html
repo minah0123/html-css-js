@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script>
+            function fn_jquery(){
+                alert("hello_jquery");
+                var p_tag_text = $("#p_tag").text();
+                alert(p_tag_text);
+            }
+        </script>
+    </head>
+    <body>
+       <p id="p_tag">hello</p> 
+        <input type="button" onclick="javascript:fn_jquery()" value="jquery">
+    </body>
+</html>
