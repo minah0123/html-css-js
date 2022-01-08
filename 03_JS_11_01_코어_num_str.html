@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>html_28_03_02_JS_코어_num_str</title>
+<script>
+document.write("<h3>html_28_03_02_JS_코어</h3>");   
+document.write("<hr>");   
+
+
+/*Number 객체
+*/
+document.write("Number.MAX_VALUE::::"+Number.MAX_VALUE +"<br>");
+document.write("Number.MIN_SAFE_INTEGER::::"+Number.MIN_SAFE_INTEGER +"<br>");
+document.write("Number.MIN_VALUE::::"+Number.MIN_VALUE +"<br>");
+document.write("Number.isInteger:::::"+Number.isInteger(0.5)+"<br>");
+document.write("parseFloat::::::"+parseFloat(4.567)+"<br>");
+document.write("parseInt:::::"+ parseInt('321')+"<br>");
+document.write("<br>=======================================================<br>");
+
+
+
+/*String 객체
+   
+*/
+
+let str1 = new String("NextIT 교육 센터");
+let str2 = "!!";
+document.write("str1 : " + str1 + "<br>");
+document.write("str2 : " + str2 + "<br><hr>");
+document.write(str1.charAt(0) + "<br>");
+document.write(str1.concat(str2, "입니다") + "<br>");
+document.write(str1.indexOf("t") + "<br>");
+document.write(str1.indexOf("교육") + "<br>");
+document.write(str1.slice(7, 9) + "<br>");
+document.write(str1.substr(7, 2) + "<br>");
+document.write(str1.toUpperCase() + "<br>");
+document.write(str1.replace("교육 센터", "교육센터") + "<br>");
+document.write("    NextIT    ".trim() + "<br><hr>");
+let sub1 = str1.split(" ");
+document.write("str1 를 빈칸으로 분리<br>");
+for(var i=0; i<sub1.length; i++)
+document.write("sub1의 " + i + " 번째는  " + sub1[i] + "<br>");
+document.write("<hr>String 메소드를 실행 후 str1와 str2 변함 없음<br>");
+document.write("str1 : " + str1 + "<br>");
+document.write("str1 : " + str2 + "<br>");
+
+</script>
+</head>
+<body>
+
+</body>
+</html>
